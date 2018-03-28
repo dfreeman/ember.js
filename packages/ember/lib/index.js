@@ -279,8 +279,6 @@ import {
   CoreObject,
   NativeArray,
   A,
-  isNamespaceSearchDisabled,
-  setNamespaceSearchDisabled,
   getStrings,
   setStrings,
 
@@ -423,8 +421,8 @@ Object.defineProperty(Ember, 'STRINGS', {
 Object.defineProperty(Ember, 'BOOTED', {
   configurable: false,
   enumerable: false,
-  get: isNamespaceSearchDisabled,
-  set: setNamespaceSearchDisabled
+  get: metal.isNamespaceSearchDisabled,
+  set: metal.setNamespaceSearchDisabled
 });
 
 import {

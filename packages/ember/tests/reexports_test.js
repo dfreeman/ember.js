@@ -177,7 +177,7 @@ let allExports = [
   ['STRINGS', 'ember-runtime', { get: 'getStrings', set: 'setStrings' }],
   [
     'BOOTED',
-    'ember-runtime',
+    'ember-metal',
     { get: 'isNamespaceSearchDisabled', set: 'setNamespaceSearchDisabled' }
   ],
 
